@@ -1,6 +1,6 @@
 var timer = false;
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2018 17:00:00").getTime();
+var countDownDate = new Date("Jan 5, 2019 17:00:00").getTime();
 
 $('.btnStart').on('click', function(){
             timer=true;
