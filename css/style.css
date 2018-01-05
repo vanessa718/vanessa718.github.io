@@ -1,0 +1,75 @@
+button{
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.3333333;
+	border-radius: 6px;
+	margin-top: 30px;
+}
+button:before{
+	content: "\01F3C0";
+}
+.commandes{
+	display: flex;
+	justify-content: space-around;
+}
+.btnStart{
+	background-color: #fa5559;
+}
+
+.btnPause{
+	background-color: #26c2b9;
+}
+.btnEnd{
+	background-color: #f6bc58;
+}
+.btnReset{
+	background-color: #2dcb74;
+}
+#dates{
+	margin-top: 50px;
+}
+#countdown{
+	text-align: center;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}	
+
+body{	
+	background: url('img/ballon.jpeg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+span{
+	font-size: 18px;
+	border-radius: 20px;
+	color: #000;
+	box-sizing: border-box;
+}
+/*	background-color: #fa5559;
+}
+#containerHours{
+	background-color: #26c2b9;
+}
+#containerMinutes{
+	background-color: #f6bc58;
+}
+#containerSeconds{
+	background-color: #2dcb74;
+}
+/*.cube{
+	width: 100px;
+	display: block;
+	justify-content: space-between;
+}
+
+/*span.turn{
+	animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn{
+	0%{transform: rotateX(0deg)}
+	100%(transform: rotateX(360deg))
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet" type="text/css" >
+
+		<title>Countdown</title>
+	</head>
+	<body>
+		<div id="countdown">
+				<img src="css/img/tango.png" alt=""/>
+				<div id="dates">
+			    	<span id="days">00</span>
+			    	<span id="hours">00</span>		    
+			    	<span id="minutes">00</span>		    
+			    	<span id="seconds">00</span>
+			    </div>
+		    <div>
+		    	<input class="number" type="text" name="Start">
+		    </div>	
+
+    		<div id="commandes">
+		    	<button class="btnStart">Start</button>
+		    	<button class="btnEnd">Stop</button>
+		    	<button class="btnPause">Pause</button>
+  				<button class="btnReset">Reset</button>
+  			</div>	
+  			 <!--<input type="text" value=" " />-->	
+		</div>	
+
+
+<!-- include jQuery --> 
+	
+	
+	<!-- inclure le plugin compte à rebours --> 
+	
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script  src = "node_modules/jquery.countdown/jquery.countdown.js "> </script>
+		<script type="text/javascript" src="js/app.js"></script>	
+		
+	</body>
+
+</html>
